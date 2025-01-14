@@ -44,7 +44,21 @@
             
             <h3>Bloguma Hoş Geldiniz</h3>
             <p>Aşağıdaki Butona Tıklayarak Sayfamız Hakkında İyi Veya Kötü Görüşlerinizi Bildirebilirsiniz.</p>
-            <button onclick="uyari()"> Buton </button>
+            <button onclick="uyari()" class="buton"> Buraya Tıkla </button>
+
+            <style>
+                .buton {
+                    background-color: rgb(20, 150, 200);
+                    color: white;
+                    padding: 6px;
+                    border-radius: 5px;
+                    
+                }
+            
+                .buton:hover {
+                    background-color: blue
+                }
+            </style>
 
     <script>
     function uyari() 
