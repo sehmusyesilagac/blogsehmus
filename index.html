@@ -39,21 +39,34 @@
     <div class="container mt-4">
     <div class="row">
             
-        <!-- Sol Bölüm -->
-        <div class="col-md-3 bg-light p-3">
-            
-            <h3>Bloguma Hoş Geldiniz</h3>
-            <p>Aşağıdaki Butona Tıklayarak Sayfamız Hakkında İyi Veya Kötü Görüşlerinizi Bildirebilirsiniz.</p>
-            <button onclick="uyari()"> Buton </button>
-            
+       <!-- Sol Bölüm -->
+<div class="col-md-3 bg-light p-3">
+    <h3>Bloguma Hoş Geldiniz</h3>
+    <p>Aşağıdaki Butona Tıklayarak Sayfamız Hakkında İyi Veya Kötü Görüşlerinizi Bildirebilirsiniz.</p>
+    
+    <button onclick="uyari()" class="buton"> Buton </button>
+</div>
 
-    <script>
-    function uyari() 
-    {
-     alert(" Bu Özellik Yakın Zamanda Kullanılır Olacakır.! ");
+<style>
+    .buton {
+        background-color: green;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
     }
-            
-    </script>
+
+    .buton:hover {
+        background-color: darkgreen;
+    }
+</style>
+
+<script>
+    function uyari() {
+        alert("Bu Özellik Yakın Zamanda Kullanılır Olacaktır!");
+    }
+</script>
                 
                 
         </div>
